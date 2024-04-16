@@ -16,25 +16,53 @@ h1 {
   margin: 17.420px 0 ;
 }
 
-.submit {
-  display:block;
+
+tr {
+  width: 554px;
 }
 
 th {
-  margin: 1px 1px 5px 1px ;
+  padding: 1px 1px 5px 1px;
 }
 
 td {
-  margin: 1px 5px 7px 5px ;
+ padding: 1px 5px 7px 5px;
 }
 
-
+#notice {
+  color: green;
+}
 
 .homes-text {
   margin: 33px;
   list-style:none
 }
 
+
+
+.table-title {
+  width: 134.797px;
+}
+
+.table-body {
+  width: 265.812px;
+}
+
+.table-path　{
+  width: 143.391px;
+}
+
+.table-show {
+  width: 35.656px;
+}
+
+.table-edit {
+  width: 25.016px;
+}
+
+.table-destroy {
+  width: 50.719px;
+}
 
 
 
@@ -50,11 +78,18 @@ td {
   margin-bottom: 10px;
 }
 
+.submit {
+  display:block;
+}
 
 
+.show-title {
+  margin: 33px;
+}
 
-
-
+.show-body {
+  margin: 33px;
+}
 
 
 
