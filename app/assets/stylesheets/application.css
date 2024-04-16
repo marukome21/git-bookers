@@ -1,15 +1,107 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body {
+  font-size: 13px;
+  margin: 33px;
+}
+
+h1 {
+  margin: 17.420px 0 ;
+}
+
+
+tr {
+  width: 554px;
+}
+
+th {
+  padding: 1px 1px 5px 1px;
+}
+
+td {
+ padding: 1px 5px 7px 5px;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+.submit {
+  display:block;
+}
+
+
+.flash-message.notice {
+  color: green;
+}
+
+
+
+
+.homes-text {
+  margin: 33px;
+  list-style:none
+}
+
+
+
+
+
+
+.table-title {
+  width: 134.797px;
+}
+
+.table-body {
+  width: 265.812px;
+}
+
+.table-path　{
+  width: 143.391px;
+}
+
+.table-show {
+  width: 35.656px;
+}
+
+.table-edit {
+  width: 25.016px;
+}
+
+.table-destroy {
+  width: 50.719px;
+}
+
+
+
+
+
+
+.index-new-title {
+  margin: 16.185px 0 ;
+}
+
+.index-errors-text {
+  margin: 33px;
+}
+
+
+
+
+
+
+
+.show-title {
+  margin: 33px;
+}
+
+.show-body {
+  margin: 33px;
+}
+
+
+
