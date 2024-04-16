@@ -7,29 +7,54 @@
   box-sizing:border-box;
 }
 
-h1{
-  margin: 17.420px 0;
-}
-
 body {
   font-size: 13px;
   margin: 33px;
 }
 
-.homes {
-  margin: 33px;
-  list-style:none
+h1 {
+  margin: 17.420px 0 ;
 }
-li {
-  margin: 33px;
-}
-
 
 .submit {
   display:block;
 }
 
-.text {
+th {
+  margin: 1px 1px 5px 1px ;
+}
+
+td {
+  margin: 1px 5px 7px 5px ;
+}
+
+
+
+.homes-text {
+  margin: 33px;
+  list-style:none
+}
+
+
+
+
+.index-new-title {
+  margin: 16.185px 0 ;
+}
+
+.index-errors-text {
+  margin: 33px;
+}
+
+.index-new-text {
   margin-bottom: 10px;
 }
+
+
+
+
+
+
+
+
 
