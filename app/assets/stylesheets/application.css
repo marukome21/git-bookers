@@ -40,6 +40,16 @@ td {
 }
 
 
+.errors-text {
+  margin: 33px;
+  color: red;
+}
+
+
+.errors-title {
+  color: red;
+}
+
 
 
 .homes-text {
@@ -83,10 +93,6 @@ td {
 
 .index-new-title {
   margin: 16.185px 0 ;
-}
-
-.index-errors-text {
-  margin: 33px;
 }
 
 

@@ -21,14 +21,16 @@
 </table>
 
 <h2 class="index-new-title">New book</h2>
+
 <% if @book.errors.any? %>
-  <%= @book.errors.count %> errors prohibited this book from being saved:
+  <span class="errors-title"><%= @book.errors.count %> errors prohibited this book from being saved:</span>
   <ul>
     <% @book.errors.full_messages.each do |message| %>
-      <li class="index-errors-text"><%= message %></li>
+      <li class="errors-text"><%= message %></li>
     <% end %>
   </ul>
 <% end %>
+
 <%= form_with model: @book, url: '/books', method: :post do |f| %>
 
   <h4>Title</h4>
